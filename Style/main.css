@@ -1,0 +1,72 @@
+/*instal fonts*/
+@font-face{
+    font-family: abrilfat;
+    src:url('../font/AbrilFatface-Regular.ttf');
+}
+body{
+    margin: 0px;
+}
+header{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    background: #444444;
+    opacity: 0.6;
+}
+header .container{
+    width: 97%;
+}
+header .logo{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    width: 114px;
+    height: 38px;
+}
+header li{
+    float: right;
+    margin-left: 20px;
+    display: block;
+    margin-top: 8px;
+}   
+header li a{
+    color: #EDEDED;
+    text-decoration: none;
+}
+.gambar{
+    display: flex;
+    width: 50%;
+}
+
+.EG{
+    position: absolute;
+    width: 884px;
+    height: 291px;
+    left: 278px;
+    top: 343px;
+}
+
+
+
+
+.header .navigation{
+    float: left;
+}
+.header .navigation li{
+    float: right;
+    margin-right: 20px;
+    font-size: 18px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header .navigation li a{
+    color: honeydew;
+    text-decoration: none;
+}
+.header .navigation li a:hover{
+    color: khaki;
+    text-decoration: underline;
+
+}
